@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>Registartion Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <h1 style="text-align: center;">REGISTRATION FORM</h1>
+    <!-- <form name="RegForm" action="" onsubmit="return validate()" method="post"> -->
+
+        <p>First Name: <input type="text" size="70" name="fname" id="fname"></p>
+        <br>
+        <p>Last Name: <input type="text" size="70" name="lname" id="lname" /></p>
+        <br>
+
+        <p>E-mail Address: <input type="text" size="70" name="email" id="email" /></p>
+
+
+        <br>
+        <p>Mobile no: <input type="text" size="70" name="mobile" id="mobile" /></p>
+
+        <br>
+        <p>Address: <input type="text" size="70" name="address" id="address" /></p>
+        <br>
+
+        <p id="btna"><colspan="2">
+            <input type="button" name="button" id="btn" value="Add" onclick="AddRow()" />
+            <!-- <input type="reset" 
+                   value="Reset"name="Reset" /> -->
+        </p>
+        <table id="show">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email address</th>
+                    <th>Mobile no</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+        </table>
+    </form>
+
+</body>
+
+</html>
